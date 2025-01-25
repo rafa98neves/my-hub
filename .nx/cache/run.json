@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run-many --target=build --projects=hub",
+    "startTime": "2025-01-25T22:42:21.933Z",
+    "endTime": "2025-01-25T22:42:23.908Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "hub:build:production",
+      "target": "build",
+      "projectName": "hub",
+      "hash": "8591361925458595916",
+      "startTime": "2025-01-25T22:42:21.937Z",
+      "endTime": "2025-01-25T22:42:23.908Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}
