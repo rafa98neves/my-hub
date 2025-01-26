@@ -1,7 +1,7 @@
 export function App() {
   return (
     <div>
-      Hub
+      My hub
     </div>
   );
 }
