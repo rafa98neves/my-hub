@@ -1,25 +1,21 @@
+// React
 import * as React from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
+
+// Components
+import Layout from '../pages/layout/layout';
+
+// Types
+import { IChildren } from '../types/layout';
 
 const Hub = React.lazy(() => import('hub/Module'));
 
-export function App() {
+export default function App() {
+
+  const childrens: IChildren[] = [
+    { name: 'MyHub', key: '', component: <Hub /> },
+  ]
+
   return (
-    <React.Suspense fallback={null}>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/hub">Hub</Link>
-        </li>
-      </ul>
-      <Routes>
-        <Route path="/" element={<div />} />
-        <Route path="/hub" element={<Hub />} />
-      </Routes>
-    </React.Suspense>
+    <Layout childrens={childrens} />
   );
 }
-
-export default App;

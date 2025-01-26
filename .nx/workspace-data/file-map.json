@@ -23,40 +23,40 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".DS_Store",
-        "hash": "1542159061738729473"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "3009140142791806673"
-      },
-      {
-        "file": "README.md",
-        "hash": "12440335781357840187"
-      },
-      {
-        "file": "eslint.config.cjs",
-        "hash": "4219588132382477313"
-      },
-      {
         "file": "jest.config.ts",
         "hash": "3494843969422251966"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
       },
       {
         "file": "nx.json",
         "hash": "11077895056399120320"
       },
       {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
         "file": "package-lock.json",
         "hash": "2343193906373823573"
       },
       {
+        "file": ".DS_Store",
+        "hash": "1542159061738729473"
+      },
+      {
         "file": "package.json",
         "hash": "576836076585676589"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3009140142791806673"
+      },
+      {
+        "file": "eslint.config.cjs",
+        "hash": "4219588132382477313"
+      },
+      {
+        "file": "README.md",
+        "hash": "12440335781357840187"
       },
       {
         "file": "tsconfig.base.json",
@@ -104,15 +104,10 @@
           ]
         },
         {
-          "file": "shell/src/app/app.module.scss",
-          "hash": "8887387885984320532"
-        },
-        {
           "file": "shell/src/app/app.tsx",
-          "hash": "6265253237267428605",
+          "hash": "12899766640646512495",
           "deps": [
             "npm:react",
-            "npm:react-router-dom",
             [
               "hub",
               "dynamic"
@@ -124,11 +119,38 @@
           "hash": "3244421341483603138"
         },
         {
+          "file": "shell/src/assets/styles/index.scss",
+          "hash": "11988015574161418973"
+        },
+        {
+          "file": "shell/src/assets/styles/main.scss",
+          "hash": "6664441530088409572"
+        },
+        {
+          "file": "shell/src/assets/styles/reset.scss",
+          "hash": "4087992184218613980"
+        },
+        {
           "file": "shell/src/bootstrap.tsx",
-          "hash": "3751753673953770956",
+          "hash": "10025098111260571984",
           "deps": [
             "npm:react",
             "npm:react-dom",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "shell/src/components/loader/loader.tsx",
+          "hash": "5302847569824712674"
+        },
+        {
+          "file": "shell/src/components/sidebar/sidebar.scss",
+          "hash": "17116304609679971174"
+        },
+        {
+          "file": "shell/src/components/sidebar/sidebar.tsx",
+          "hash": "17633761611181529101",
+          "deps": [
             "npm:react-router-dom"
           ]
         },
@@ -145,8 +167,52 @@
           "hash": "14701344671644104227"
         },
         {
-          "file": "shell/src/styles.scss",
-          "hash": "5195668842064076916"
+          "file": "shell/src/pages/Layout/Layout.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "shell/src/pages/Layout/Layout.tsx",
+          "hash": "6265253237267428605",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            [
+              "hub",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "shell/src/pages/Layout/layout.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "shell/src/pages/Layout/layout.tsx",
+          "hash": "6265253237267428605",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            [
+              "hub",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "shell/src/pages/layout/layout.scss",
+          "hash": "1064703113352394634"
+        },
+        {
+          "file": "shell/src/pages/layout/layout.tsx",
+          "hash": "5469955753067937045",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "shell/src/types/layout.ts",
+          "hash": "8778262362095105503"
         },
         {
           "file": "shell/tsconfig.app.json",

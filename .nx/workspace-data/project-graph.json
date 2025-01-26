@@ -12248,17 +12248,17 @@
       },
       {
         "source": "shell",
-        "target": "npm:react-router-dom",
-        "type": "static"
-      },
-      {
-        "source": "shell",
         "target": "hub",
         "type": "dynamic"
       },
       {
         "source": "shell",
         "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "shell",
+        "target": "npm:react-router-dom",
         "type": "static"
       }
     ],
