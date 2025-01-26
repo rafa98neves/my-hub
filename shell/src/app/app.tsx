@@ -7,7 +7,7 @@ import Layout from '../pages/layout/layout';
 // Types
 import { IChildren } from '../types/layout';
 
-const Hub = React.lazy(() => import('hub/Module'));
+const Hub = React.lazy(() => import('hub/root'));
 
 export default function App() {
 
