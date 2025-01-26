@@ -131,3 +131,5 @@ dist
 
 .nx
 .DS_Store
+vite.config.*.timestamp*
+vitest.config.*.timestamp*
