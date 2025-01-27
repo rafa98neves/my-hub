@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "library": ["library/src/index.ts"],
-      "hub/root": ["hub/src/remote-entry.ts"]
+      "ui": ["packages/ui/src/index.ts"],
+      "hub/root": ["apps/hub/src/remote-entry.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

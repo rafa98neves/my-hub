@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "all": "nx run-many --parallel --target=serve --projects=shell,hub"
+    "all": "nx run-many --parallel --target=serve --projects=apps/shell,apps/hub"
   },
   "private": true,
   "dependencies": {
